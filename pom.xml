@@ -1,0 +1,37 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.openurp</groupId>
+    <artifactId>openurp-parent</artifactId>
+    <version>0.0.10</version>
+  </parent>
+  <groupId>org.openurp.hr</groupId>
+  <artifactId>openurp-hr-service-parent</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>OpenURP Hr Service Parent</name>
+  
+  <properties>
+    <bundle.symbolicName>org.openurp.hr.service.parent</bundle.symbolicName>
+    <bundle.namespace>org.openurp.hr</bundle.namespace>
+    <openurp.platform.version>0.0.2-SNAPSHOT</openurp.platform.version>
+    <openurp.base.version>0.0.1-SNAPSHOT</openurp.base.version>
+  </properties>
+  
+  <modules>
+    <module>base</module>
+  </modules>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.openurp.hr.base</groupId>
+      <artifactId>openurp-hr-base-model</artifactId>
+      <version>${openurp.base.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.beangle.data</groupId>
+      <artifactId>beangle-data-model</artifactId>
+    </dependency>
+  </dependencies>
+</project>
