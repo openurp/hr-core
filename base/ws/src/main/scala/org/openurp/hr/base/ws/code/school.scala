@@ -1,4 +1,4 @@
-package org.openurp.base.ds.code
+package org.openurp.hr.base.ws.code
 
 import org.openurp.hr.base.ds.code.AbstractWS
 import org.openurp.hr.base.code.TeacherType

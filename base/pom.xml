@@ -11,13 +11,13 @@
   <packaging>pom</packaging>
   <version>0.0.1-SNAPSHOT</version>
   <name>OpenURP Hr Base Service Parent</name>
-  
+
   <properties>
     <bundle.symbolicName>org.openurp.hr.base.service.parent</bundle.symbolicName>
     <bundle.namespace>org.openurp.hr.base</bundle.namespace>
   </properties>
 
   <modules>
-    <module>ds</module>
+    <module>ws</module>
   </modules>
 </project>
